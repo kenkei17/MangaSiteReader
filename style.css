@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+:root {
+    --navbar-bg: 240,255,253;
+    --bg-color: #f0fffd;
+    --text-color: #00331a;
+    --accent: #0c6;
+    --bg-color-2: rgba(0,51,26,0.726);
+    --bg-color-3: #e0e0e0;
+    --bg-color-4: #ededed;
+}
+*,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #cccccc;
+    font-family: 'Comic Neue', cursive;
+}
+.title{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.main{
+    min-height: 100vh;
+    width: 650px;
+}
+.btn__primary:before {
+    content: "";
+    position: absolute;
+    top: -2%;
+    left: -2%;
+    border: 1px solid var(--accent);
+    height: 105%;
+    width: 105%;
+    border-radius: 0.6rem;
+    color: #fff;
+    -webkit-transform: rotate(-3.5deg);
+    -moz-transform: rotate(-3.5deg);
+    transform: rotate(-3.5deg);
+    -webkit-box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+}
+.btn__primary {
+    background-color: var(--accent);
+    padding: 1.2rem 2.4rem;
+    border-radius: 0.6rem;
+    font-weight: 500;
+}
+.btn {
+    position: relative;
+    border: none;
+    color: #fff;
+    font-family: Cascadia Code;
+    text-transform: lowercase;
+    cursor: pointer;
+    font-size: 1.6rem;
+    z-index: 1;
+    display: inline-block;
+    width: 200px;
+}
+
+img {
+    width: 100%;
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-out;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+  }
+  
+  .button-con{
+    position: fixed;
+    color: var(--accent);
+    top:45%;
+    right:5%;
+  }
+  .nextChapterButton{
+    color:black;
+  }
